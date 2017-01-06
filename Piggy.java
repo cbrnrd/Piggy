@@ -46,7 +46,7 @@ public class Pig {
 				char firstLetter = modifiedStringArray[i].charAt(0); //store the first letter of the string
 				modifiedStringArray[i] = modifiedStringArray[i].substring(1); //get everything else but the first letter
 				modifiedStringArray[i] = modifiedStringArray[i] + firstLetter + "ay"; //put the first letter at the and and add 'ay'
-				System.out.print("\n" + modifiedStringArray[i] + " "); //print it out
+				System.out.print(modifiedStringArray[i] + " "); //print it out
 			}
 			userInput.close();
 		}catch(Exception e){
