@@ -12,10 +12,21 @@ public class Pig {
 		inputString.toLowerCase();
 		
 		// rearrange this if loop to a for loop
-		if (inputString.contains("1") || inputString.contains("2") || inputString.contains("3") || inputString.contains("4") || inputString.contains("5") || inputString.contains("6") || inputString.contains("7") || inputString.contains("8") || inputString.contains("9") || inputString.contains("0")){
+		if (inputString.contains("1") || 
+		    inputString.contains("2") ||
+		    inputString.contains("3") ||
+		    inputString.contains("4") ||
+		    inputString.contains("5") ||
+		    inputString.contains("6") ||
+		    inputString.contains("7") ||
+		    inputString.contains("8") ||
+		    inputString.contains("9") || 
+		    inputString.contains("0")){
+			
 			System.err.println("Input can't include numerical values.");
 			userInput.close();
 			main(null);
+			
 		}
 	
 		
