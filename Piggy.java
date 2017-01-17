@@ -1,9 +1,7 @@
-package piggy;
-
 import java.util.*;
 import java.io.*;
 
-public class Pig {
+public class Piggy {
 
 	public static void main(String args[]){
 		Scanner userInput = new Scanner(System.in);
